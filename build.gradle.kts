@@ -1,12 +1,14 @@
 plugins {
 	id("org.springframework.boot") version "3.4.4"
 	id("io.spring.dependency-management") version "1.1.7"
+	// scan dependency version update: ./gradlew dependencyUpdates
+	id("com.github.ben-manes.versions") version "0.52.0"
 
-	kotlin("jvm") version "1.9.25"
-	kotlin("plugin.spring") version "1.9.25"
-	kotlin("plugin.jpa") version "1.9.25"
-	kotlin("plugin.allopen") version "1.9.25"
-	kotlin("kapt") version "1.9.25"
+	kotlin("jvm") version "2.1.20"
+	kotlin("plugin.spring") version "2.1.20"
+	kotlin("plugin.jpa") version "2.1.20"
+	kotlin("plugin.allopen") version "2.1.20"
+	kotlin("kapt") version "2.1.20"
 }
 
 group = "com.example"
