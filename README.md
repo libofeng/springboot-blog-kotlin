@@ -1,1 +1,3 @@
-# springboot_blog_kotlin
+# SpringBoot Blog
+
+### SpringBoot Blog demo project based on Kotlin.
